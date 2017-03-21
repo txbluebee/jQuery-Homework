@@ -33,4 +33,17 @@ var indexLetter = text.charAt(senIndex);
 return indexLetter + capRevSen(text);
 };
 
+
+
 alert(indexLetterAddSen(sentence));
+
+
+
+//Bonus
+
+var reverseString = function(text) {
+	return text.split("").reverse().join("");
+};
+
+var alterSen = indexLetterAddSen(sentence);
+alert(reverseString(alterSen));
